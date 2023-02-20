@@ -8,6 +8,9 @@ services:
     environment:
       EULA: "TRUE"
       VIRTUAL_HOST: mc.mader.lo
+      LETSENCRYPT_HOST: mc.mader.xyz
+      LETSENCRYPT_EMAIL: vincent.mader@icloud.com
+
     tty: true
     stdin_open: true
     restart: unless-stopped
